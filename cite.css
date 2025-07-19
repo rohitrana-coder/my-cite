@@ -1,0 +1,403 @@
+.one{
+    background-color: rgba(201, 190, 190, 0.608);
+}
+.first{
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+
+
+.firstiteam::after,
+.secondteam::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.firstiteam{
+    width: 525px;
+    margin-left: 250px;
+}
+
+.seconditeam{
+    width: 520px;
+    margin-left: 10px
+}
+.pone {
+margin-left: 200px;
+font-size: 14px;
+}
+
+.pone a{
+    color: rgba(0, 0, 255, 0.682);
+}
+.usalogo{
+   
+    position: relative;
+   
+}
+.usalogo img{
+height: 80px;
+width: 80px;
+margin-left: 200px;
+margin-top: 10px;
+}
+.usalogo a{
+    position: absolute;
+    /* margin-left: 400px;
+    margin-top: 200px; */
+    margin-top: 10px;
+    top:35px;
+    left:800px;
+    padding: 10px;
+    border-right: 3px solid rgba(131, 123, 123, 0.507);
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* .button{
+    float: left;
+} */
+.button1{
+    background-color: black;
+    color: white;
+    margin-left: 300px;
+}
+.button1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(23, 151, 171);
+}
+.inputsearch{
+    float: left;
+    margin-left: 20px; 
+    margin-top: 10px;
+    
+}
+
+.inputsearch input{
+    width: 100px;
+    position: absolute;
+}
+.ab:hover{
+    border-bottom: 3px solid rgb(23, 167, 180);
+}
+.colm{
+    float: left;
+}
+.imagesection{
+    position: relative;
+}
+.imagesection img{
+    border-top: 10px solid red;
+}
+.colm{
+    width: 380px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-left: 180px;
+    background-color:  #112f4e;
+    position: absolute;
+    margin-top: -375px;
+    height: 350px;
+width: 400px;
+border: 2px solid white;
+}
+.colm h3{
+    color: white;
+}
+.colm li{
+    margin-top: 20px;
+    font-size: 18px;
+    color: white    ;
+}
+.textsection p{
+    margin-left: 160px;
+    color: black;
+    padding: 20px;
+    font-size: 19px;
+}
+.main3{
+    background-color:rgb(224, 255, 255);
+}
+.ba{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 260px;
+}
+.ac{
+    margin-left: 10px;
+}
+.ba:hover{
+    background-color: rgba(0, 255, 255, 0.058);
+} 
+.colms{
+    margin-top: 20px;
+   margin-left: 10px;
+}
+.colms a{
+    color: rgb(72, 44, 151);
+}
+.colms1 a{
+    color: rgb(72, 44, 151);
+}
+.colms1{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 250px;
+}
+.yz{
+color: red;
+ margin-left: 230px; 
+ font: bold; 
+ margin-top: 10px;
+}
+.icon{
+    float: left;
+}
+.textwrite{
+    float: left;
+}
+.sidebutton{
+    
+    height: 50px;
+    width: 100px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+}
+.text1{
+    margin-left: 200px;
+}
+.box1{
+    margin-left: 200px;
+}
+.box2{
+    margin-left: -430px;
+}
+.box3{
+    margin-left: -450px;
+}
+@media(max-width:480px){
+.pone{
+    margin-left: 0px;
+}
+.firstiteam{
+    margin: 0px;
+}
+.usalogo img{
+        margin-left: 0px;
+    }
+    .colm h3,a{
+        font-size: 10px;
+    }
+    .colm{
+    margin-left: 0px;
+    width: 200px;
+    }
+    .textsection p{
+        margin: 0px;
+    }
+    .ba{
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 30px;
+        width: 200px;
+    }
+    .colms1{
+        margin-left: 0px;
+        width: 180px;
+        margin-left: 50px;
+    }
+    .colms{
+        width: 150px;
+        margin-left: 50px;
+    }
+    .colms4{
+        width: 200px;
+    }
+.text1{
+    margin-left: 0px;
+}
+.box1{
+    margin: 0px;
+}
+.box2{
+    margin-left: -10px;
+}
+    .box3{
+        margin-left: -10px;
+    }
+    .xy a{
+        margin-left: -50px;
+    }
+    .yz{
+        margin-left: 190px;
+    }
+    .button1{
+        margin-left: -80px;
+    }
+     .inputsearch{
+       margin-left: 20px;
+       margin-top: 60px;
+       width: 900px;
+    }
+     .usalogo a{
+        margin-left: -710px;
+    }
+}
+@media (min-width:481px) and (max-width:768px){
+    .ba{
+     
+       margin: 0px;
+       margin-top: 10px;
+       margin-left: 10px;
+       width: 260px;
+    }
+    .colm{
+       margin-left: 40px;
+       width: 290px;
+       height: 370px;
+    }
+    .textsection p{
+        margin: 0px;
+    }
+    .pone{
+        margin-left: 0px;
+    }
+    .firstiteam{
+        margin: 0px;
+    }
+    .usalogo img{
+        margin-left: 0px;
+    }
+    .usalogo a{
+        margin-left: -650px;
+    }
+    .button1{
+        margin-left: -80px;
+    }
+    .inputsearch{
+       margin-left: -10px;
+       margin-top: 60px;
+       width: 900px;
+    }
+    .colms1{
+        margin-left: 0px;
+    }
+    .colms4{
+        margin-left: 100px;
+    }
+    .text1{
+        margin-left: 30px;
+    }
+    .box1{
+        margin-left: 15px;
+    }
+    .box2{
+        margin-left: 5px;
+    }
+    .box3{
+        margin-left: 5px;
+    }
+}
+ 
+@media(min-width:769px) and (max-width:1024px){
+ .ba{
+     
+       margin: 0px;
+       margin-top: 10px;
+       margin-left: 120px;
+       width: 300px;
+       height: 260px;
+    }
+    .ac{
+        margin-left: 60px;
+    }
+    .ca{
+        margin-left: 120px;
+    } 
+    .colm{
+       margin-left: 80px;
+       width: 290px;
+       height: 370px;
+    }
+    .textsection p{
+        margin: 0px;
+    }
+    .pone{
+        margin-left: 0px;
+    }
+    .firstiteam{
+        margin: 0px;
+    }
+    .usalogo img{
+        margin-left: 0px;
+    }
+    .usalogo a{
+        margin-left: -650px;
+    }
+    .button1{
+        margin-left: -80px;
+    }
+    .inputsearch{
+       margin-left: -10px;
+       margin-top: 60px;
+       width: 900px;
+    }
+    .colms1{
+        margin-left: 0px;
+    }
+    .colms4{
+        margin-left: -40px;
+    }
+    .text1{
+        margin-left: 30px;
+    }
+    .box1{
+        margin-left: 15px;
+    }
+    .box2{
+        margin-left: 5px;
+    }
+    .box3{
+        margin-left: 5px;
+    }
+    
+ }
+@media(min-width:1025px) and (max-width:1272px){
+    .colm{
+        margin-left: 60px;
+    }
+    .ba{
+        margin: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 320px;
+        width: 220px;
+    }
+    .colms1{
+        margin-left:0px;
+    }
+    .usalogo a{
+        margin-left: -400px;
+    }
+    .button1{
+        margin-left: -80px;
+    }
+    .inputsearch{
+        margin-top: 60px;
+    }
+    .pone{
+    margin-left: 40px;
+}
+.firstiteam{
+    margin: 0px;
+}
+}
